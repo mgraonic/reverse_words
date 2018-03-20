@@ -11,10 +11,7 @@ def reverse_words(my_words)
       right += 1
     end
 
-    if right != left
-      reverse(my_words, left, (right - 1))
-    end
-
+    reverse(my_words, left, (right - 1))
     left = right + 1
   end
 end
