@@ -19,6 +19,11 @@ def reverse_words(my_words)
   end
 end
 
+# Time complexity: O(n)
+# Reason: have to iterate through the whole string/array only once. The number of operations (n) is equivalent to the length of the input. Therefore, the number of operations grows linearly with the length of the input (ie, if length == 100, n = 100)
+# Space complexity: O(1)
+# Reason: Increase in input size does not require creation of additional variables (ie, will not occupy more in memory)
+
 
 def reverse(my_words, left, right)
   while left < right
